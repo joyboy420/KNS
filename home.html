@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="app.js"></script>
@@ -23,7 +24,7 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
         <div class="container">
             <!-- LOGO -->
-            <a class="navbar-brand logo text-uppercase" href="index.html">
+            <a class="navbar-brand logo text-uppercase" href="home.html">
                 <img src="./logo.png" class="logo-light" alt="" height="50">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -59,9 +60,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p class="promo-title">Karnali Service</p>
-                    <p>this is the small font little description</p>
-                    <button type="button" class="btn btn-primary">Primary</button>
+                    <h2 class="promo-title">INTERNET SERVICE IN KARNALI</h2>
+                    <p style="color:rgb(245, 238, 235); font-size:17px;">KNS most popular plans</p>
+                    <a href="#"><button type="button" class="btn btn-light" data-target="#">View all plans</button></a>
                 </div>
                 <div class="col-md-6 text-center">
                     <img src="home_img.png" alt="home image" class="img-fluid">
@@ -82,18 +83,24 @@
         <div class="container">
             <div class="row vertical-content">
                 <div class="col-md-5 kns-text">
-                    <p>Why KNS</p>
-                    <button type="button" class="btn btn-primary">Read about KNS</button>
+                    <p>Why KNS?</p>
+                    <button type="button" class="btn readmore" style="background-color:rgb(176, 233, 219);">Read about
+                        KNS</button>
                 </div>
                 <div class="col-md-7 kns-desc">
-                    <p>Some text here Bootstrap’s grid includes five tiers of predefined classes for building complex
-                        responsive layouts. Customize the size of your columns on extra small, small, medium, large, or
-                        extra large devices however you see fit.
+                    <p style="color:rgb(102, 94, 94);">Karnali Network Services (KNS) established in 2015 is one of
+                        its
+                        first kind
+                        to start working on
+                        Technology sector in rural area of Karnali. KNS intend to introduce Karnali to global digital
+                        market by implementing information communication technology services like introducing high speed
+                        internet facilities, opening local IT hardware store, launching different IT related program as
+                        educational purposes, digitizing local and government bodies, improvising local business to
+                        digital form so that local resources are available for trading from different part of country
+                        and so on.
 
-                        All breakpoints
-                        For grids that are the same from the smallest of devices to the largest, use the .col and .col-*
-                        classes. Specify a numbered class when you need a particularly sized column; otherwise, feel
-                        free to stick to .col.</p>
+                        Our highly skilled and experienced team of globally certified experts with prior proven
+                        expertise at global IT companies will ensure to deliver quality service.</p>
                 </div>
             </div>
         </div>
@@ -106,72 +113,62 @@
                 <!--start heading-->
                 <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                     <div class="heading text-center">
-                        <h5>Core Features</h5>
-                        <h2>Our product has lots of excellent core features for smart people.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic explicabo voluptas nisi iste
-                            reiciendis, tempore commodi necessitatibus, laborum laudantium.</p>
+                        <h2>OUR SERVICES</h2>
+                        <br>
+                        <br>
                     </div>
                 </div>
                 <!--end heading-->
             </div>
             <div class="row">
-                <!--start core feature single-->
                 <div class="col-lg-4 col-md-6">
                     <div class="service-single text-center">
-                        <i class="icofont-globe"></i>
-                        <h4>GPRS Tracking</h4>
-                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
-                            Aenean dignissim.</p>
+                        <img src="globe.svg" height="50" alt="" class="our-service-img">
+                        <h4>OPTICAL FIBER INTERNET SERVICE</h4>
+                        <p>For the first time in Jumla, Karnali Network Services introduces the blazing fast high speed
+                            fiber internet. Now do more, do faster in less time.</p>
                     </div>
                 </div>
                 <!--end core feature single-->
                 <!--start core feature single-->
                 <div class="col-lg-4 col-md-6">
                     <div class="service-single text-center">
-                        <i class="icofont-alarm"></i>
-                        <h4>Notification Alart</h4>
-                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
-                            Aenean dignissim.</p>
+                        <img src="ui-settings.svg" height="50" alt="" class="our-service-img">
+                        <h4>IT INFRASTRUCTURE SUPPORT & MAINTENANCE</h4>
+                        <p>Remember your locally owned Technology company for all scale IT Infrastructure Support &
+                            Maintenance at a flat rate fee with guaranteed after support.</p>
                     </div>
                 </div>
                 <!--end core feature single-->
                 <!--start core feature single-->
                 <div class="col-lg-4 col-md-6">
                     <div class="service-single text-center">
-                        <i class="icofont-video"></i>
-                        <h4>Instant Video Call</h4>
-                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
-                            Aenean dignissim.</p>
+                        <img src="network.svg" height="50" alt="" class="our-service-img">
+                        <h4>NETWORK DESIGN & SYSTEM SETUP</h4>
+                        <p>Contact us to design your Network and System Setup from our globally certified IT
+                            professionals.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-2"></div>
+                <!--end core feature single-->
+                <!--start core feature single-->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-single text-center">
+                        <img src="laptop.svg" height="50" alt="" class="our-service-img">
+                        <h4>WEB DESIGN & SOFTWARE DEVELOPMENT</h4>
+                        <p>We help you design, develop and implement Billing System, School management system, Websites,
+                            Logos and any other software developments as per your requirement.</p>
                     </div>
                 </div>
                 <!--end core feature single-->
                 <!--start core feature single-->
                 <div class="col-lg-4 col-md-6">
                     <div class="service-single text-center">
-                        <i class="icofont-chat"></i>
-                        <h4>User Live Chat</h4>
-                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
-                            Aenean dignissim.</p>
-                    </div>
-                </div>
-                <!--end core feature single-->
-                <!--start core feature single-->
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-single text-center">
-                        <i class="icofont-brand-android-robot"></i>
-                        <h4>Install Any App</h4>
-                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
-                            Aenean dignissim.</p>
-                    </div>
-                </div>
-                <!--end core feature single-->
-                <!--start core feature single-->
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-single text-center">
-                        <i class="icofont-dart"></i>
-                        <h4>Attractive Design</h4>
-                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
-                            Aenean dignissim.</p>
+                        <img src="badge.svg" height="50" alt="" class="our-service-img">
+                        <h4>IT PROFESSIONAL TRAINING & SEMINARS</h4>
+                        <p>We provide training from basic office package to advanced IT training that are recognized
+                            globally.</p>
                     </div>
                 </div>
                 <!--end core feature single-->

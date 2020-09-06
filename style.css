@@ -15,28 +15,69 @@ body {
 
 /* navbar part */
 
-.nav-item a{
-    background-color: #fff;
+.nav-sticky.navbar-custom {
+    margin-top: 0px;
+    padding: 15px 0px;
+    background-color: ghostwhite;
+    -webkit-box-shadow: 0 10px 33px rgba(140, 140, 140, 0.1);
+            box-shadow: 0 10px 33px rgba(140, 140, 140, 0.1);
 }
 
+.nav-sticky a{
+    color:black;
+}
+
+.navbar-custom {
+    padding: 40px 0px;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 999;
+    margin-bottom: 0px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+
+.nav-link{
+    color: white;
+    font-weight: 50;
+    /* font-size:18px; */
+}
+
+.form-inline{
+    padding-left:100px;
+}
+
+.form-inline button{
+    background-color:white;
+}
+
+.form-inline button:hover{
+    background-color: black;
+}
+
+.sticky{
+    margin-top: 30px;
+}
 
 
 /* home part */
 
 #home-1{
-    /* background: -webkit-gradient(linear, left top, right top, from(#6fc2e5), to(#3e0b91)); */
-    background: linear-gradient(to right, #bfe4eb, #3e0b91);
+    /* background: -webkit-linear-gradient(bottom left, red 20px, yellow, green, blue 90%); */
+    /* background: -webkit-gradient(linear, left top, right top, from(#c3b3dd), to(#3e0b91)); */
+    background: -webkit-linear-gradient(top left,white 1%, #29b3b8 25%, #3e0b91);
+    /* background: linear-gradient(to right, #bfe4eb, #0a67d1); */
     background-size: cover;
     background-position: center center;
     position: relative;
-    padding: 190px 0px;
+    padding: 130px 0px;
 }
 
 .promo-title{
-    font-size: 40px;
     font-weight: 600;
-    margin-top: 150px;
-    margin-bottom: 10px;
+    padding-top: 200px;
+    margin-bottom: 20px;
+    color: white;
 }
 
 /* .bottom-img{
@@ -50,24 +91,6 @@ body {
     height: auto;
     bottom: 0;
     left: 0;
-  }
-
-.nav-sticky.navbar-custom {
-    margin-top: 0px;
-    padding: 15px 0px;
-    background-color: #ffffff;
-    -webkit-box-shadow: 0 10px 33px rgba(140, 140, 140, 0.1);
-            box-shadow: 0 10px 33px rgba(140, 140, 140, 0.1);
-}
-
-.navbar-custom {
-    padding: 40px 0px;
-    width: 100%;
-    border-radius: 0px;
-    z-index: 999;
-    margin-bottom: 0px;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
   }
 
 
@@ -97,6 +120,11 @@ body {
     padding-top:200px;
 }
 
+
+
+
+
+
 /* our services */
 
 #our-services{
@@ -110,6 +138,12 @@ body {
     background-color: #fff;
     border-radius: 10px;
     margin: 0 0 30px;
+    height: 300px;
+}
+
+.our-service-img{
+    margin-bottom:10px;
+    margin-top:-15px;
 }
 
 /* Why came for karnali */
