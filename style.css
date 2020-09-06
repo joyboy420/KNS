@@ -56,7 +56,7 @@ body {
 }
 
 .sticky{
-    margin-top: 30px;
+    margin-top: -10px;
 }
 
 
@@ -101,7 +101,7 @@ body {
     background-color: #fafaff;
 }
 
-.kns-text{
+/* .kns-text{
     margin: 0px 500px 0px 0px;
     font-weight: bold;
     font-size: 30px;
@@ -112,24 +112,37 @@ body {
     margin-top: -160px;
     background-color: #ffffff;
     text-align: justify;
+} */
+
+
+/* .kns-text{
+    padding-bottom: 700px;
+} */
+
+
+.kns-text h3{
+    padding-top:300px;
+    margin-left: 100px;
 }
 
-
-
-.kns-text p{
-    padding-top:200px;
+.kns-text button{
+    margin-left: 100px;
 }
 
+.kns-desc{
+    padding-top: 80px;
+}
 
-
-
+.why-kns-cont{
+    height: 500px;
+}
 
 
 /* our services */
 
 #our-services{
     padding: 90px 0 70px;
-    background-color: #fafaff;
+    background-color: #edf2f6;
 }
 
 .service-single{
@@ -150,12 +163,39 @@ body {
 
 .about-cont{
     text-align: justify;
-    margin-bottom: 160px;
+    margin-bottom: 200px;
 }
 
 .about-img{
     padding-top:50px;
 }
+
+/* Our approach */
+.our-approach-title{
+    color:#B23850;
+    font-weight:900;
+}
+
+.our-approach-div h5{
+    font-weight: 900;
+    margin-bottom:10px;
+}
+
+.our-approach-div p{
+    text-align: justify;
+}
+
+.approach-img{
+    margin-left:90px; 
+    margin-bottom:35px;
+}
+
+#our-approach{
+    background-color:#C4DBF6;
+}
+
+
+
 
 /* Testemonials */
 
@@ -163,7 +203,12 @@ body {
     max-width: 90%; 
     padding-top:20px; 
     padding-left:100px;
-    border-right: solid grey;
+}
+
+.vertical-line{
+    margin-top:40px;
+    height: 200px;
+    border-left: 3px solid grey;
 }
 
 /* Brain behind  */
@@ -171,4 +216,19 @@ body {
 .brain-name{
     font-weight: bold;
     font-size: 20px;
+    color: #8590AA;
+}
+
+.brain-position{
+    color: #5680E9;
+    font-size:15px;
+    font-weight: bolder;
+}
+
+.card-deck{
+    padding:50px;
+}
+
+.card{
+    border-color: #C4DBF6;
 }

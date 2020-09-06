@@ -6,19 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
 
-    <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600&display=swap"
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,800;0,900;1,800;1,900&display=swap"
         rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="app.js"></script>
 </head>
-
-<!--         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button> -->
 
 <body>
     <!--Navbar Start-->
@@ -81,14 +78,21 @@
 
     <!-- Why KNS -->
     <section id="why-kns">
-        <div class="container">
-            <div class="row vertical-content">
-                <div class="col-md-5 kns-text">
-                    <p>Why KNS?</p>
-                    <button type="button" class="btn readmore" style="background-color:rgb(176, 233, 219);">Read about
-                        KNS</button>
+        <!-- <img src="people.png" height="350px" alt=""> -->
+        <div class="container why-kns-cont">
+            <div class="row ">
+                <div class="col-md-5 ">
+                    <!-- <div class="col-md-4">
+                        <img src="people.png" classs="why-kns-img" height="300" alt="">
+                    </div> -->
+                    <div class="col-md-4 kns-text">
+                        <h3 style="font-weight: bolder;">Why <span style="color:#B23850;">KNS</span>?</h3>
+                        <button type="button" class="btn readmore"
+                            style="background-color:rgb(176, 233, 219); width:150px;">Read about KNS</button>
+                    </div>
                 </div>
                 <div class="col-md-7 kns-desc">
+                    <img src="logo-only.png" height="100px" style="margin-left:250px;" alt="">
                     <p style="color:rgb(102, 94, 94);">Karnali Network Services (KNS) established in 2015 is one of
                         its
                         first kind
@@ -114,7 +118,9 @@
                 <!--start heading-->
                 <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                     <div class="heading text-center">
-                        <h2>OUR SERVICES</h2>
+                        <h3 style="font-weight:bolder;">OUR <span style="color:#B23850">SERVICES</span></h3>
+                        <hr
+                            style="width:120px; height:2px; background-color:#B23850; margin-left:300px; margin-bottom:-30px;">
                         <br>
                         <br>
                     </div>
@@ -178,12 +184,16 @@
     </section>
 
     <section id="about-area" class="default">
+        <br><br>
         <div class="container">
             <div class="row">
-                <!--start about content-->
                 <div class="col-md-6">
                     <div class="about-cont">
-                        <h2>WHY WE CAME FOR KARNALI</h2>
+                        <h3 style="font-weight: bolder; text-align: center;">WHY WE CAME FOR <span
+                                style="color:#B23850">KARNALI</span></h3>
+                        <hr
+                            style="width:150px; height:2px; background-color:#B23850; margin-left:200px; margin-bottom:-30px;">
+                        <br><br>
                         <p>The idea behind establishing Karnali Network Services (KNS) to offer technology services in
                             rural sector especially in Karnali region is inspired from group of individuals whose origin
                             is basically from Karnali. We intend to apply knowledge and experience that we gained over
@@ -194,9 +204,6 @@
                             improvements in infrastructure, connectivity and resilience.. Globally, more of us now live
                             in cities than in rural areas. If we want to live more sustainably, we will have to do so
                             surrounded by concrete rather than fields and woodland.</p>
-                        <p>Not so idyllic perhaps, but it makes sense — cities high population density relative to their
-                            geographical footprint makes for more efficient use of land, product distribution,
-                            employment, travel, technology deployment — the list goes on.</p>
                         <button type="button" class="btn btn-outline-secondary">Read More</button>
                     </div>
 
@@ -217,18 +224,23 @@
     <section id="testemonial">
         <div class="container">
             <div class="testemonial-title">
-                <h3 style="text-align:center;">THEIR THOUGHTS ABOUT US</h3>
+                <h3 style="text-align:center; font-weight: bolder;"><span style="color:#B23850;">THEIR THOUGHTS</span>
+                    ABOUT US</h3>
+                <hr style="width:150px; height:2px; background-color:#B23850; margin-left:500px; margin-bottom:-30px;">
             </div>
             <br><br>
             <div class="row" style="height:400px;">
                 <div class="col-md-5">
-                    <img class="testemonial-img" src="sample_person.svg" alt="">
+                    <img class="testemonial-img" src="madhav.jpg" alt="">
                 </div>
-                <div class="col-md-7">
-                    <p style="padding-top:90px;">The approach of development of Information Technology on local rural
+                <div class="col-md-1 vertical-line"></div>
+                <div class="col-md-6">
+                    <p style="padding-top:60px;">The approach of development of Information Technology on local rural
                         area, the way they started is really admirable. I wish them good luck for their bright future.
                     </p>
-                    <p>MADHAV CHINNAL <br> Annapurna Media Network Pvt. Ltd. <br>Sr. Graphic Designer</p>
+                    <p style="font-weight: bolder;">MADHAV CHINNAL <br> <span style="color:#d4143b; font-size:15px;">
+                            Annapurna Media Network Pvt. Ltd. <br>Sr.
+                            Graphic Designer</span></p>
                 </div>
             </div>
         </div>
@@ -237,29 +249,37 @@
     <!-- Our Approach section -->
 
     <section id="our-approach">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h3>RESEARCH, DESIGN AND CONSULTATION</h3>
+        <div class="container"> <br><br>
+            <h3 style="text-align:center; font-weight: 900;">OUR <span class="our-approach-title">APPROACH</span>
+                <hr style="width:100px; height:2px; background-color:#B23850; margin-left:500px; margin-bottom:-30px;">
+                <br><br>
+            </h3>
+            <div class="row approach-row">
+                <div class="col-md-4 our-approach-div">
+                    <img src="design.png" class="approach-img" alt="">
+                    <h5>RESEARCH, DESIGN AND CONSULTATION</h5>
                     <p>Our expert consultant will help you design your IT project that is specifically tailored for your
                         need. We understand that each client is different and so are their requirements that is why we
                         strongly believe in thorough research to design projects tailored for each client’s specific
                         need.</p>
                 </div>
-                <div class="col-md-4">
-                    <h3>SCHEMATIC PLANNING AND IMPLEMENTATION</h3>
+                <div class="col-md-4 our-approach-div">
+                    <img src="planning.png" class="approach-img" alt="">
+                    <h5>SCHEMATIC PLANNING AND IMPLEMENTATION</h5>
                     <p>Thorough research help us plan and then take action to implement any project. In any process of
                         planning, there are necessary steps to take in order to succeed. Our strategic planning help set
                         goals, decide what actions need to be taken to complete those achievable goals.</p>
                 </div>
-                <div class="col-md-4">
-                    <h3>GUARANTEED AFTER SUPPORT</h3>
+                <div class="col-md-4 our-approach-div">
+                    <img src="support.png" class="approach-img" alt="">
+                    <h5>GUARANTEED AFTER SUPPORT</h5>
                     <p>We not only help you design and execute your IT project, we also make sure that your system runs
                         in perfect health by providing guaranteed after support. We maximize your return of investment
                         by keeping your system up and running so that you can take maximum benefit from your system.</p>
                 </div>
             </div>
         </div>
+        <br><br><br><br>
     </section>
     <br><br>
 
@@ -267,12 +287,19 @@
     <!-- brain behind -->
     <section id="brains-behind">
         <div class="container">
+            <h3 style="text-align:center; font-weight: bolder;">BRAIN <span style="color:#B23850">BEHIND US</span></h3>
+            <hr style="width:100px; height:2px; background-color:#B23850; margin-left:500px; margin-bottom:-30px;">
             <div class="card-deck">
                 <div class="card">
                     <img class="card-img-top" src="jeevan-bro.jpeg" alt="Card image cap">
                     <div class="card-body">
                         <p style="text-align:center;"><span class="brain-name">Jeevan
-                                Mahat</span><br><span>CEO</span><br><span>9851079155</span><br><span>jeevan@karnalinetworks.com</span>
+                                Mahat</span><br><span class="brain-position">CEO</span><br><span
+                                class="brain-number"><img src="icon-phone.png"
+                                    style="vertical-align: middle; height:25px;" alt="">9851079155</span><br><span
+                                class="brain-mail"><img src="icon-mail.png"
+                                    style="vertical-align: middle; height: 27px;" alt=""> &nbsp;
+                                jeevan@karnalinetworks.com</span>
                         </p>
                     </div>
                 </div>
@@ -280,15 +307,23 @@
                     <img class="card-img-top" src="hikmat-dai-2.jpg" alt="Card image cap">
                     <div class="card-body">
                         <p style="text-align:center;"><span class="brain-name">Hikmat
-                                Rokaya</span><br><span>Chairperson</span><br><span>9841611567</span><br><span>hikmat@karnalinetworks.com</span>
+                                Rokaya</span><br><span class="brain-position">Chairperson</span><br><span
+                                lass="brain-number"><img src="icon-phone.png"
+                                    style="vertical-align: middle; height:25px;" alt="">9841611567</span><br><span
+                                class="brain-mail"><img src="icon-mail.png" style="vertical-align: middle; height:27px;"
+                                    alt="">&nbsp; hikmat@karnalinetworks.com</span>
                         </p>
                     </div>
                 </div>
                 <div class="card">
                     <img class="card-img-top" src="Mahendra-Karki-1.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <p style="text-align:center;"><span class="brain-name">Mahendra Karki</span><br><span>Marketing
-                                Manager</span><br><span>9841509866</span><br><span>mahendra@karnalinetworks.com</span>
+                        <p style="text-align:center;"><span class="brain-name">Mahendra Karki</span><br><span
+                                class="brain-position">Marketing
+                                Manager</span><br><span class="brain-number"><img src="icon-phone.png"
+                                    style="vertical-align: middle; height:25px;" alt="">9841509866</span><br><span
+                                class="brain-mail"><img src="icon-mail.png" style="vertical-align: middle; height:27px;"
+                                    alt="">&nbsp; mahendra@karnalinetworks.com</span>
                         </p>
                     </div>
                 </div>
