@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<!--         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button> -->
+
+<body>
+    <!--Navbar Start-->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
+        <div class="container">
+            <!-- LOGO -->
+            <a class="navbar-brand logo text-uppercase" href="index.html">
+                <img src="./logo.png" class="logo-light" alt="" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto navbar-center" id="mySidenav">
+                    <li class="nav-item active">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#aboutus" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#ourservices" class="nav-link">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contactus" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <section id="home-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="promo-title">Karnali Service</p>
+                    <p>this is the small font little description</p>
+                    <button type="button" class="btn btn-primary">Primary</button>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="home_img.png" alt="home image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="home-shape mt-4">
+                    <img src="shape-1.png" alt="" class="img-fluid mx-auto d-block">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why KNS -->
+    <section id="why-kns">
+        <div class="container">
+            <div class="row vertical-content">
+                <div class="col-md-5 kns-text">
+                    <p>Why KNS</p>
+                    <button type="button" class="btn btn-primary">Read about KNS</button>
+                </div>
+                <div class="col-md-7 kns-desc">
+                    <p>Some text here Bootstrap’s grid includes five tiers of predefined classes for building complex
+                        responsive layouts. Customize the size of your columns on extra small, small, medium, large, or
+                        extra large devices however you see fit.
+
+                        All breakpoints
+                        For grids that are the same from the smallest of devices to the largest, use the .col and .col-*
+                        classes. Specify a numbered class when you need a particularly sized column; otherwise, feel
+                        free to stick to .col.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why KNS end -->
+    <!--our services-->
+    <section id="our-services" class="bg-gray">
+        <div class="container">
+            <div class="row">
+                <!--start heading-->
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                    <div class="heading text-center">
+                        <h5>Core Features</h5>
+                        <h2>Our product has lots of excellent core features for smart people.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic explicabo voluptas nisi iste
+                            reiciendis, tempore commodi necessitatibus, laborum laudantium.</p>
+                    </div>
+                </div>
+                <!--end heading-->
+            </div>
+            <div class="row">
+                <!--start core feature single-->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-single text-center">
+                        <i class="icofont-globe"></i>
+                        <h4>GPRS Tracking</h4>
+                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
+                            Aenean dignissim.</p>
+                    </div>
+                </div>
+                <!--end core feature single-->
+                <!--start core feature single-->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-single text-center">
+                        <i class="icofont-alarm"></i>
+                        <h4>Notification Alart</h4>
+                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
+                            Aenean dignissim.</p>
+                    </div>
+                </div>
+                <!--end core feature single-->
+                <!--start core feature single-->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-single text-center">
+                        <i class="icofont-video"></i>
+                        <h4>Instant Video Call</h4>
+                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
+                            Aenean dignissim.</p>
+                    </div>
+                </div>
+                <!--end core feature single-->
+                <!--start core feature single-->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-single text-center">
+                        <i class="icofont-chat"></i>
+                        <h4>User Live Chat</h4>
+                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
+                            Aenean dignissim.</p>
+                    </div>
+                </div>
+                <!--end core feature single-->
+                <!--start core feature single-->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-single text-center">
+                        <i class="icofont-brand-android-robot"></i>
+                        <h4>Install Any App</h4>
+                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
+                            Aenean dignissim.</p>
+                    </div>
+                </div>
+                <!--end core feature single-->
+                <!--start core feature single-->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-single text-center">
+                        <i class="icofont-dart"></i>
+                        <h4>Attractive Design</h4>
+                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
+                            Aenean dignissim.</p>
+                    </div>
+                </div>
+                <!--end core feature single-->
+            </div>
+        </div>
+    </section>
+
+    <section id="about-area" class="default">
+        <div class="container">
+            <div class="row">
+                <!--start about content-->
+                <div class="col-md-6">
+                    <div class="about-cont">
+                        <h5>About Watch</h5>
+                        <h2>Awesome digital watch can make your life easier</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis
+                            eros. Nullam malesuada erat ut turpis.</p>
+                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
+                            Aenean dignissim pellentesque felis.</p>
+                        <ul>
+                            <li><i class="icofont-check"></i> High Quality Product</li>
+                            <li><i class="icofont-check"></i> Modern And New Design</li>
+                            <li><i class="icofont-check"></i> Multiple Color Available</li>
+                        </ul>
+                        <a href="#product-area">Read More</a>
+                    </div>
+                </div>
+                <!--end about content-->
+                <!--start about image-->
+                <div class="col-md-6">
+                    <div class="about-img">
+                        <img src="hill_vector2.jpg" class="img-fluid" alt="" />
+                    </div>
+                </div>
+                <!--end about image-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testemonials -->
+    <section id="testemonial">
+        <div class="container">
+            <div class="row" style="height:400px;">
+                <div class="col-md-5" style="background-color:yellow; ">
+                    <img src="sample_person.svg" alt="" style="max-width: 100%;">
+                </div>
+                <div class="col-md-7" style="background-color:red;">
+                    <p style="padding-top:90px;">Oh nice I like the company .alright alright alright</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Approach section -->
+    <section id="approach">
+        <div id="features" class="features-area bg-gray default-padding-top bottom-less">
+            <div class="container">
+                <div class="features-box text-center">
+                    <div class="row">
+                        <!-- Single Item -->
+                        <div class="single-item col-md-4 col-sm-6">
+                            <div class="item">
+                                <i class="fas fa-chart-line"></i>
+                                <h4>System Analysis</h4>
+                                <p>
+                                    Diminution expression reasonable it we he projection acceptance in devonshire.
+                                    Perpetual it described at he applauded.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Single Item -->
+                        <!-- Single Item -->
+                        <div class="single-item col-md-4 col-sm-6">
+                            <div class="item">
+                                <i class="fas fa-headset"></i>
+                                <h4>Support Chat</h4>
+                                <p>
+                                    Diminution expression reasonable it we he projection acceptance in devonshire.
+                                    Perpetual it described at he applauded.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Single Item -->
+                        <!-- Single Item -->
+                        <div class="single-item col-md-4 col-sm-6">
+                            <div class="item">
+                                <i class="fas fa-rocket"></i>
+                                <h4>First Run</h4>
+                                <p>
+                                    Diminution expression reasonable it we he projection acceptance in devonshire.
+                                    Perpetual it described at he applauded.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Single Item -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- brain behind -->
+    <section id="brains-behind">
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- map/location -->
+    <section>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.024436259165!2d82.1772606537228!3d29.274732719922692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc026e737bf415222!2sKarnali+Network+Services!5e0!3m2!1sen!2snp!4v1522917595997"
+            width="600" height="480" frameborder="0" style="border: 0px; pointer-events: none;"
+            allowfullscreen=""></iframe>
+    </section>
+
+    <!-- footer...this part is controversial -->
+
+
+</body>
+
+</html>
