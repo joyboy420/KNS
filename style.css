@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
     background-color: aliceblue;
     /* color: black; */
     overflow-x: hidden;
@@ -148,4 +148,27 @@ body {
 
 /* Why came for karnali */
 
+.about-cont{
+    text-align: justify;
+    margin-bottom: 160px;
+}
+
+.about-img{
+    padding-top:50px;
+}
+
 /* Testemonials */
+
+.testemonial-img{
+    max-width: 90%; 
+    padding-top:20px; 
+    padding-left:100px;
+    border-right: solid grey;
+}
+
+/* Brain behind  */
+
+.brain-name{
+    font-weight: bold;
+    font-size: 20px;
+}
