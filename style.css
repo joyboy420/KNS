@@ -241,15 +241,17 @@ body {
 
 #about-area{
     background-color: #fafaff;
+    padding: 70px 0;
 }
 
 .about-cont{
-    text-align: justify;
-    padding: 0px 0;
+    /* text-align: justify; */
+    padding-bottom: 70px;
+    
 }
 
 .about-img{
-    padding-top:50px;
+    /* padding-top:50px; */
 }
 
 
@@ -284,7 +286,7 @@ body {
 
 .our-approach-div h5{
     font-weight: 900;
-    margin-bottom:10px;
+    /* margin-bottom:10px; */
 }
 
 .our-approach-div p{
@@ -293,7 +295,7 @@ body {
 
 .approach-img{
     margin-left:90px; 
-    margin-bottom:35px;
+    /* margin-bottom:35px; */
 }
 
 #our-approach{
@@ -301,8 +303,22 @@ body {
     padding:70px 0;
 }
 
+.approach-title-div{
+    top: -50px;
+}
+
+.approach-title-div h3{
+    text-align:center; 
+    font-weight: 900;
+    padding-bottom: 70px;
+}
+
 
 /* Brain behind  */
+
+.brain-behind-title{
+    padding-bottom: 20px;
+}
 
 .brain-name{
     font-weight: bold;
@@ -324,7 +340,7 @@ body {
     border-color: #C4DBF6;
 }
 
-#brain-behind{
+#brains-behind{
     padding: 70px 0;
     background-color: #f5f2fa;
 }
