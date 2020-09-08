@@ -87,7 +87,7 @@ body {
 }
 
 .nav-item a:hover{
-    color: #ffffff;
+    color: ghostwhite;
     text-decoration: underline;
 }
  
@@ -231,6 +231,8 @@ body {
 
 .service-button{
     background-color: #deeefb;
+    border: solid rgb(98, 91, 91);
+    border-width: 1px;
 }
 
 .service-single h4{
@@ -252,6 +254,12 @@ body {
 
 .about-img{
     /* padding-top:50px; */
+}
+
+.about-button{
+    background-color: #deeefb;
+    border: solid rgb(98, 91, 91);
+    border-width: 1px;
 }
 
 
@@ -323,11 +331,11 @@ body {
 .brain-name{
     font-weight: bold;
     font-size: 20px;
-    color: #8590AA;
+    color: #140a44;
 }
 
 .brain-position{
-    color: #5680E9;
+    color: #140a44;
     font-size:15px;
     font-weight: bolder;
 }
@@ -343,4 +351,14 @@ body {
 #brains-behind{
     padding: 70px 0;
     background-color: #f5f2fa;
+}
+
+@media screen and (min-width:1900px){
+    .diamond{
+        margin-left: 300px;
+    }
+
+    .circle{
+        margin-left: 300px;
+    }
 }
