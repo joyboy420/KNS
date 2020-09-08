@@ -6,12 +6,14 @@
 
 body {
     /* font-family: "Poppins", sans-serif; */
-    background-color: aliceblue;
+    background-color: #f5f2fa;
     /* color: black; */
     overflow-x: hidden;
   }
 
-
+/* section{
+    padding: 70px 0;
+} */
 
 /* navbar part */
 
@@ -27,6 +29,22 @@ body {
     color:black;
 }
 
+.search-dak{
+    display:none;
+}
+
+.search-lit{
+    display: inline-block;
+}
+
+.nav-sticky .search-dak{
+    display: inline-block;
+}
+
+.nav-sticky .search-lit{
+    display: none;
+}
+
 .navbar-custom {
     padding: 40px 0px;
     width: 100%;
@@ -38,7 +56,7 @@ body {
   }
 
 .nav-link{
-    color: white;
+    color: rgb(235, 222, 222);
     font-weight: 50;
     /* font-size:18px; */
 }
@@ -52,31 +70,71 @@ body {
 }
 
 .form-inline button:hover{
-    background-color: black;
+    background-color: #060536;
 }
 
 .sticky{
     margin-top: -10px;
 }
 
+#navbarCollapse{
+    margin-right: 200px;
+}
+
+.nav-sticky .nav-item a:hover{
+    color: #B23850;
+    text-decoration: underline;
+}
+
+.nav-item a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+ 
+
+.nav-item a{
+    font-weight: 500;
+    font-size: 16px;
+}
 
 /* home part */
 
 #home-1{
     /* background: -webkit-linear-gradient(bottom left, red 20px, yellow, green, blue 90%); */
     /* background: -webkit-gradient(linear, left top, right top, from(#c3b3dd), to(#3e0b91)); */
-    background: -webkit-linear-gradient(top left,white 1%, #29b3b8 25%, #3e0b91);
+    background: -webkit-linear-gradient(top left,rgb(204, 152, 235), #8860d0 30%, #5680e9 );
     /* background: linear-gradient(to right, #bfe4eb, #0a67d1); */
     background-size: cover;
     background-position: center center;
     position: relative;
-    padding: 130px 0px;
+    /* padding: 130px 0px; */
+}
+
+.diamond{
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(to right,#d6c9ee, #b994fd);
+    /* background-color: #234e80; */
+    transform: rotate(45deg);
+    left: 100px;
+    margin-top: -150px;
+    padding: 150px;
+}
+
+.circle{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* background-color: #3d9970; */
+    background: linear-gradient(to right,#9b56e9, #8556e9);
+    left: 600px;
+    bottom: 120px;
 }
 
 .promo-title{
     font-weight: 600;
-    padding-top: 200px;
-    margin-bottom: 20px;
+    /* margin-bottom:  */
     color: white;
 }
 
@@ -84,14 +142,22 @@ body {
     margin-right:500px;
 } */
 
+.home-img{
+    bottom: 200px;   
+}
+
 .home-shape {
     display: block;
     position: absolute;
     width: 100%;
     height: auto;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
   }
+
+.home-container{
+    height: 400px;
+}
 
 
 /* Why KNS */
@@ -120,38 +186,42 @@ body {
 } */
 
 
-.kns-text h3{
-    padding-top:300px;
-    margin-left: 100px;
+.kns-text{
+    padding-left: 50px;
+    padding-top: 30px;
 }
 
-.kns-text button{
-    margin-left: 100px;
+.kns-text h3{
+    padding-left: 20px;
 }
 
 .kns-desc{
-    padding-top: 80px;
 }
 
 .why-kns-cont{
-    height: 500px;
+    height: 480px;
+    padding-top: 70px;
 }
 
+.logo-only{
+    padding-left: 80px;
+}
 
 /* our services */
 
 #our-services{
-    padding: 90px 0 70px;
-    background-color: #edf2f6;
+    padding: 70px 0 70px;
+    background-color: #f5f2fa;
 }
 
 .service-single{
     border: 1px solid #e6f0fa;
-    padding: 35px 22px 20px;
+    padding: 40px 22px 20px;
     background-color: #fff;
     border-radius: 10px;
     margin: 0 0 30px;
-    height: 300px;
+    height: 310px;
+    align-items: center;
 }
 
 .our-service-img{
@@ -159,15 +229,51 @@ body {
     margin-top:-15px;
 }
 
+.service-button{
+    background-color: #deeefb;
+}
+
+.service-single h4{
+    color: #3b8beb
+}
+
 /* Why came for karnali */
+
+#about-area{
+    background-color: #fafaff;
+}
 
 .about-cont{
     text-align: justify;
-    margin-bottom: 200px;
+    padding: 0px 0;
 }
 
 .about-img{
     padding-top:50px;
+}
+
+
+/* Testemonials */
+
+#testemonial{
+    padding: 70px 0;
+    background-color: #f5f2fa;
+}
+
+.testemonial-img{
+    max-width: 90%; 
+    padding-top:20px; 
+    padding-left:100px;
+}
+
+.vertical-line{
+    margin-top:40px;
+    height: 200px;
+    border-left: 3px solid grey;
+}
+
+.testemonial-title{
+    padding-bottom: 80px;
 }
 
 /* Our approach */
@@ -191,25 +297,10 @@ body {
 }
 
 #our-approach{
-    background-color:#C4DBF6;
+    background-color:#fafaff;
+    padding:70px 0;
 }
 
-
-
-
-/* Testemonials */
-
-.testemonial-img{
-    max-width: 90%; 
-    padding-top:20px; 
-    padding-left:100px;
-}
-
-.vertical-line{
-    margin-top:40px;
-    height: 200px;
-    border-left: 3px solid grey;
-}
 
 /* Brain behind  */
 
@@ -231,4 +322,9 @@ body {
 
 .card{
     border-color: #C4DBF6;
+}
+
+#brain-behind{
+    padding: 70px 0;
+    background-color: #f5f2fa;
 }
