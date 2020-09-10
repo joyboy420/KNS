@@ -227,13 +227,6 @@ body {
     background-color: #fafaff;
 }
 
-.whykns__title{
-
-}
-
-.whykns__title--red{
-
-}
 /* .kns-text{
     margin: 0px 500px 0px 0px;
     font-weight: bold;
@@ -332,11 +325,6 @@ body {
 
 .about__text{
     text-align: justify;
-}
-
-.about-img{
-    /* padding-top:50px; */
-    /* height: 100px; */
 }
 
 .about-button{
@@ -655,7 +643,7 @@ body {
 
 
 
-@media (min-width: 200px) and (max-width: 768px) {
+@media (min-width: 100px) and (max-width: 768px) {
     .navbar-custom {
       margin-top: 0px;
       padding: 15px 0px !important;
@@ -674,6 +662,8 @@ body {
 
     .toggle-icon img{
         height:20px;
+        margin-left: -200px;
+
     }
 
   }
