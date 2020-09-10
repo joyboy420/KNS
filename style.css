@@ -75,7 +75,9 @@ body {
 
 
 /* navbar part */
-
+.navbar-toggler{
+    margin-left: -100px;
+}
 
 .nav-sticky.navbar-custom {
     margin-top: 0px;
@@ -333,6 +335,8 @@ body {
     border: solid rgb(98, 91, 91);
     border-width: 1px;
 }
+
+
 
 
 .about-cont hr{
@@ -602,6 +606,7 @@ body {
 
     .about-img img{
         height:235px;
+        padding-top: 40px;
     }
 
     /* testemonials */
@@ -666,5 +671,6 @@ body {
         margin-left: -200px;
 
     }
+
 
   }
