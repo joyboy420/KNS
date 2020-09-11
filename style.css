@@ -12,7 +12,7 @@ body {
   }
 
 .default-padding{
-    padding: 70px 0;
+    padding: 50px 0;
 }
 
 
@@ -118,7 +118,7 @@ body {
   }
 
 .nav-link{
-    color: rgb(218, 205, 205);
+    color: #d8d7d4;
 }
 
 .sticky{
@@ -298,6 +298,7 @@ body {
     align-items: center;
 }
 
+
 .our-service-img{
     margin-bottom:10px;
     margin-top:-15px;
@@ -317,7 +318,7 @@ body {
 
 #about-area{
     background-color: #fafaff;
-    padding: 70px 0;
+    padding: 50px 0;
 }
 
 .about-cont{
@@ -351,7 +352,7 @@ body {
 /* Testemonials */
 
 #testemonial{
-    padding: 70px 0;
+    padding: 50px 0;
     background-color: #f5f2fa;
 }
 
@@ -414,7 +415,7 @@ body {
 
 #our-approach{
     background-color:#fafaff;
-    padding:70px 0;
+    padding:50px 0;
 }
 
 .approach-title-div{
@@ -462,7 +463,7 @@ body {
 }
 
 #brains-behind{
-    padding: 70px 0;
+    padding: 50px 0;
     background-color: #f5f2fa;
 }
 
@@ -643,6 +644,19 @@ body {
         width: 80%
     }
 }
+
+
+/* @media screen and (max-width:768px){
+    .circle{
+        margin-left: -100px;
+    }
+
+    .kns-desc{
+        margin-
+    }
+
+
+} */
 
 
 
