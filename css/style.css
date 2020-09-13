@@ -688,3 +688,46 @@ body {
 
 
   }
+
+
+
+
+
+
+
+/* ABOUT US */
+
+.aboutus__top-img{
+    width: 100%
+}
+
+.about{
+    /* background-color: #f5f2fa; */
+}
+
+.aboutus__div{
+    background-color: #f5f2fa;
+    margin-top: -150px;
+}
+
+.aboutus h3{
+    /* text-align: center; */
+    font-weight: bolder;
+    color: #05051d;
+    margin-bottom: 20px;
+}
+
+.aboutus__image1{
+    height: 380px;
+    margin-left: -110px;
+}
+
+.aboutus__image2{
+    height: 380px;
+    margin-top: -405px;
+    margin-left: 460px;
+}
+
+.aboutus h4{
+    font-weight: bolder;
+}
