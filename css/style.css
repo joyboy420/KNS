@@ -5,10 +5,11 @@
 }
 
 body {
-    /* font-family: "Poppins", sans-serif; */
+    font-family: "Poppins", sans-serif;
     background-color: #f5f2fa;
     /* color: black; */
     overflow-x: hidden;
+    -webkit-text-size-adjust: auto;
   }
 
 .default-padding{
@@ -144,16 +145,10 @@ body {
     text-decoration: underline;
 }
 
-
-.nav-item a{
-    font-weight: 500;
-    font-size: 16px;
-}
-
 .navbar-collapse a{
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 16px;
     margin-right: 12px;
 }
 
@@ -214,8 +209,8 @@ body {
     position: absolute;
     width: 100%;
     height: auto;
-    bottom: 0px;
-    left: 0;
+    bottom: -20px;
+    left: 170px;
   }
 
 .home-container{
@@ -249,28 +244,31 @@ body {
 } */
 
 
-.kns-text{
+/* .kns-text{
     padding-left: 50px;
-    padding-top: 30px;
-}
+    padding-top: 90px;
+} */
 
 .kns-text h3{
+    padding-top: 120px;
     padding-left: 20px;
-    font-weight: bolder;
+    font-weight: bold;
+    font-size: 40px;
 }
 
 .kns-text h3 span{
     color:#B23850;
-    font-size:30px;
 }
 
 .kns-desc p{
     color:rgb(102, 94, 94);
     text-align: justify;
+    margin-top: 30px;
 }
 
 .kns-desc p span{
     font-weight:600;
+    color: #0289c3;
 }
 
 .why-kns-cont{
@@ -337,7 +335,13 @@ body {
     border-width: 1px;
 }
 
+.about-img img{
+    margin-top: 80px;
+}
 
+.about-cont h3{
+    text-align: center;
+}
 
 
 .about-cont hr{
@@ -400,7 +404,8 @@ body {
 }
 
 .our-approach-div h5{
-    font-weight: 900;
+    font-weight: bold;
+    font-size:22px;
     /* margin-bottom:10px; */
 }
 
@@ -409,8 +414,9 @@ body {
 }
 
 .approach-img{
-    margin-left:90px;
-    margin-bottom:10px;
+    margin-bottom:15px;
+    height: 60px;
+    margin-left: 120px;
 }
 
 #our-approach{
@@ -541,11 +547,11 @@ body {
 
 @media screen and (min-width:1900px){
     .diamond{
-        margin-left: 300px;
+        margin-left: 440px;
     }
 
     .circle{
-        margin-left: 300px;
+        margin-left: 380px;
     }
 }
 
@@ -659,6 +665,28 @@ body {
 } */
 
 
+@media (min-width: 1920px) and (max-width: 2200px){
+    body{
+
+    }
+    .home-shape{
+        left: 300px;
+        
+    }
+
+    .home-img{
+        left: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -688,6 +716,18 @@ body {
 
 
   }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
