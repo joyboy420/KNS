@@ -53,7 +53,7 @@ body {
     background: #B23850;
     bottom:0;
     content:"";
-    height: 2px;
+    height: 1.5px;
     left: 30%;
     position: absolute;
     width: 130px;
@@ -214,7 +214,7 @@ body {
   }
 
 .home-container{
-    height: 400px;
+    height: 450px;
 }
 
 
@@ -341,6 +341,7 @@ body {
 
 .about-cont h3{
     text-align: center;
+    position: relative;
 }
 
 
@@ -351,6 +352,17 @@ body {
     margin-left:160px;
     margin-bottom:-30px;
 }
+/* .about-cont h3::after{
+    display:block;
+    content: "";
+    background: #B23850;
+    height: 2px;
+    width: 160px; 
+    position: absolute;
+    left: 40%;
+} */
+
+
 
 
 /* Testemonials */
@@ -556,7 +568,7 @@ body {
 }
 
 
-@media screen and (max-width:425px){
+@media screen and (min-width:400px) and (max-width:600px){
     .circle{
         /* display: none; */
         margin-top: 80px;
@@ -570,7 +582,11 @@ body {
     }
 
     .home-img{
-        margin-top: 130px;
+        margin-top: 190px;
+    }
+
+    .home-shape{
+        left: 0px;
     }
 
     .why-kns-cont img{
@@ -578,9 +594,9 @@ body {
     }
 
     .logo-only img{
-        height: 50px;
+        height: 50px; 
     }
-
+ 
     .whykns__title{
         margin-top: -200px;
         margin-left: 140px;
@@ -588,15 +604,15 @@ body {
 
     .kns-desc{
         margin-top: 30px;
-        margin-bottom: 300px;
+        /* margin-bottom: 320px; */
     }
 
     #why-kns{
-        margin-bottom: 140px;
+        margin-bottom: 190px;
     }
 
     .service-single{
-        height: 250px;
+        height: 270px;
     }
 
     #our-services hr{
@@ -608,7 +624,7 @@ body {
     }
 
     #about-area hr{
-        margin-left: 2px;
+        margin-left: 110px;
     }
 
     .about-img img{
@@ -679,7 +695,71 @@ body {
     }
 }
 
+@media screen and (min-width:768px) and (max-width:1024px){
+    .circle{
+        left:400px;
+    }
 
+    .home-img img{
+        margin-top:130px;
+    }
+
+    .home-container{
+        height: 300px;
+    }
+
+    .home-shape__image{
+        margin-left: -130px;
+    }
+
+    /* why kns */
+    #why-kns{
+        height: 520px;
+    }
+
+    .why-kns-cont img{
+        height: 200px;
+        margin-top: 100px;
+    }
+    
+    /* .site-heading hr{
+        margin-left:100px; 
+    } */
+    .service-title{
+        margin-left: -110px;
+    }
+
+    .hidden-div{
+        display: none;
+    }
+
+    .about-cont hr{
+        margin-left: 260px;
+    }
+
+
+    .testemonial-title hr{
+        margin-left: 250px;
+    }
+
+    .testemonial-img{
+        height: 160px;
+        padding-left: 0px;
+        margin-top: 50px;
+    }
+
+    .approach-title-div hr{
+        margin-left: 280px;
+    }
+
+    .approach-img{
+        margin-left: 50px;
+    }
+
+    .brain-behind-title hr{
+        margin-left: 280px;
+    }
+}
 
 
 
@@ -771,3 +851,10 @@ body {
 .aboutus h4{
     font-weight: bolder;
 }
+
+
+
+
+
+
+/* OUR SERVICES */
