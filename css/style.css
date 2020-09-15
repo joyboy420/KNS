@@ -857,4 +857,63 @@ body {
 
 
 
-/* OUR SERVICES */
+/* ISP SERVICES */
+.isp-top{
+    background: linear-gradient(to right, #8860d0, #5680e9);
+    height: 100px;
+}
+
+.isp-heading{
+    margin: 50px 0;
+}
+
+.isp-heading h1{
+    text-align: end;
+}
+
+.home-plan, .office-plan{
+    margin-bottom: 30px;
+}
+
+.home-plan__text{
+    padding-top: 40px;
+}
+
+.pricing-single{
+    background-color: #5680e9;
+    color: #fff;
+    margin-bottom: 100px;
+    transition: transform .1s;
+}
+
+.pricing-single:hover{
+    transform: scale(1.1);
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1);
+}
+
+.small-circle{
+    height: 80px; 
+    width: 120px;
+    line-height: 80px;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    margin: 20px auto;
+    color:blue;
+    font-size:19px;
+    font-weight: 500;
+}
+
+.pricing-single h1, h2, h3, h4, h5, p{ 
+    text-align: center;
+}
+
+.pricing-single h1{
+    margin-bottom: -10px;
+}
+
+.onetime-charge{
+    background-color: rgb(61, 104, 245);
+}
+
