@@ -929,11 +929,11 @@ body {
 }
 
 .onetime-charge h5{
-    /* border-bottom: solid grey 1px;     */
+    /* background-color: rgb(50, 66, 211); */
 }
 
 .first-row, .second-row, .third-row, .fourth-row{
-    margin: 10px 0;
+    height: 40px;
 }
 
 .first-row, .third-row{
