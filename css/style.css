@@ -70,6 +70,8 @@ body {
   text-transform: uppercase;
   display: table-cell;
   vertical-align: middle;
+  position: relative;
+  z-index: 5;
 }
 
 /* navbar part */
@@ -157,7 +159,7 @@ body {
     top left,
     rgb(204, 152, 235),
     #8860d0 30%,
-    #5680e9
+    #22AED1
   );
   /* background: linear-gradient(to right, #bfe4eb, #0a67d1); */
   background-size: cover;
@@ -192,11 +194,13 @@ body {
   font-weight: 600;
   /* margin-bottom:  */
   color: white;
+  text-align: start;
 }
 
 .home__text p {
   color: rgb(245, 238, 235);
   font-size: 17px;
+  text-align: start;
 }
 
 .home-img {
@@ -210,6 +214,11 @@ body {
   height: auto;
   bottom: -20px;
   left: 170px;
+}
+
+.home-shape__image{
+  z-index: 1;
+  
 }
 
 .home-container {
@@ -801,6 +810,7 @@ body {
 
 .isp-heading {
   margin: 50px 0;
+  font-weight: bold;
 }
 
 .isp-heading h1 {
@@ -819,6 +829,11 @@ body {
 
 .home-plan__text p {
   text-align: start;
+}
+
+.pricing-table h3 {
+  margin: 40px 0;
+  font-weight: 500;
 }
 
 .pricing-single {
