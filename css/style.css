@@ -858,6 +858,10 @@ body {
 
 
 /* ISP SERVICES */
+#isp{
+    background-color: #f5f2fa;
+}
+
 .isp-top{
     background: linear-gradient(to right, #8860d0, #5680e9);
     height: 100px;
@@ -869,6 +873,7 @@ body {
 
 .isp-heading h1{
     text-align: end;
+    font-weight: 500;
 }
 
 .home-plan, .office-plan{
@@ -879,11 +884,17 @@ body {
     padding-top: 40px;
 }
 
+.home-plan__text p{
+    text-align: start;
+}
+
 .pricing-single{
-    background-color: #5680e9;
+    background-color: #008ac4;
     color: #fff;
     margin-bottom: 100px;
     transition: transform .1s;
+    border: solid grey 1px;
+    border-radius: 5px;
 }
 
 .pricing-single:hover{
@@ -892,11 +903,11 @@ body {
     -webkit-transform: scale(1.1);
 }
 
-.small-circle{
-    height: 80px; 
+.small-rectangle{
+    height: 40px; 
     width: 120px;
-    line-height: 80px;
-    border-radius: 50%;
+    line-height: 40px;
+    border-radius: 20px;
     background: white;
     text-align: center;
     margin: 20px auto;
@@ -905,7 +916,7 @@ body {
     font-weight: 500;
 }
 
-.pricing-single h1, h2, h3, h4, h5, p{ 
+.pricing-single h1, h2, h4, h5, p{ 
     text-align: center;
 }
 
@@ -913,7 +924,29 @@ body {
     margin-bottom: -10px;
 }
 
-.onetime-charge{
-    background-color: rgb(61, 104, 245);
+.pricing-single h2{
+    border-bottom: solid grey 1px;
 }
 
+.onetime-charge h5{
+    /* border-bottom: solid grey 1px;     */
+}
+
+.first-row, .second-row, .third-row, .fourth-row{
+    margin: 10px 0;
+}
+
+.first-row, .third-row{
+    background-color: #ffffff;
+    color: rgb(77, 74, 74);
+}
+
+.second-row, .fourth-row{
+    background-color: #efefef;
+    color: rgb(77, 74, 74);
+}
+
+.pricing-single h4{
+    margin: 10px 0;
+    color: #fff;
+}
